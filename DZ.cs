@@ -12,9 +12,7 @@ namespace CS_DZ_Sem_4
         public static List<int> FindThreeNumbers(int[] arr, int target, int startIndex)
         {
             Array.Sort(arr);
-            arr.ToList().ForEach(Console.Write);
-            Console.WriteLine();
-
+            
             List<int> result = new List<int>();
 
             for (int i = startIndex; i < arr.Length - 2; i++)

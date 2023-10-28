@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int[] arr = new int[] { 5, 7, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             int target = 13;
             int startIndex = 0;
             int resultCount = 0;
